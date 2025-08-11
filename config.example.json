@@ -1,16 +1,8 @@
 {
-  "qbittorrent": {
-    "host": "localhost",
-    "port": 8080,
-    "username": "admin",
-    "password": "adminadmin",
-    "timeout": 30,
-    "verify_ssl": true
-  },
   "thresholds": {
     "max_queue_time": 172800,
     "max_meta_time": 3600,
-    "min_torrent_age": 86400,
+    "min_torrent_age": 7200,
     "grace_checks": 3,
     "check_interval": 1800,
     "min_progress_protect": 5,
@@ -33,13 +25,12 @@
   "categories": {
     "protected": [
       "important",
-      "archive",
-      "manual"
+      "manual",
+      "private"
     ],
     "auto_remove": [
       "temp",
-      "test",
-      "auto"
+      "test"
     ],
     "private_trackers": []
   },
