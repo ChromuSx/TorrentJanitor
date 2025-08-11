@@ -35,7 +35,7 @@ TorrentJanitor is a Python application that automatically cleans up your qBittor
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/torrentjanitor.git
+git clone https://github.com/ChromuSx/torrentjanitor.git
 cd torrentjanitor
 ```
 
@@ -321,15 +321,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This tool is for legitimate torrent management only. Users are responsible for complying with all applicable laws and regulations in their jurisdiction. The authors assume no liability for misuse of this software.
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/torrentjanitor/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/torrentjanitor/discussions)
-- **Wiki**: [Documentation Wiki](https://github.com/yourusername/torrentjanitor/wiki)
-
----
-
 <p align="center">
   <b>🧹 Keep it clean, keep it lean!</b><br>
-  Made with ❤️ by <a href="https://github.com/yourusername">Giovanni Guarino</a>
+  Made with ❤️ by <a href="https://github.com/ChromuSx">Giovanni Guarino</a>
 </p>
