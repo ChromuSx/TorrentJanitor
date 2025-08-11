@@ -1,0 +1,58 @@
+{
+  "qbittorrent": {
+    "host": "localhost",
+    "port": 8080,
+    "username": "admin",
+    "password": "adminadmin",
+    "timeout": 30,
+    "verify_ssl": true
+  },
+  "thresholds": {
+    "max_queue_time": 172800,
+    "max_meta_time": 3600,
+    "min_torrent_age": 86400,
+    "grace_checks": 3,
+    "check_interval": 1800,
+    "min_progress_protect": 5,
+    "min_download_speed": 1024,
+    "min_seeds_required": 1,
+    "max_seed_time": 604800
+  },
+  "rules": {
+    "remove_errors": true,
+    "remove_stalled": true,
+    "remove_metadata_timeout": true,
+    "remove_no_activity": true,
+    "remove_queue_timeout": true,
+    "remove_low_ratio": false,
+    "protect_seeding": true,
+    "protect_private_trackers": false,
+    "min_seed_ratio": 1.0,
+    "max_torrent_size_gb": 0
+  },
+  "categories": {
+    "protected": [
+      "important",
+      "archive",
+      "manual"
+    ],
+    "auto_remove": [
+      "temp",
+      "test",
+      "auto"
+    ],
+    "private_trackers": []
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size_mb": 10,
+    "max_files": 5,
+    "format": "%(asctime)s - %(levelname)s - %(message)s"
+  },
+  "paths": {
+    "work_dir": "/data",
+    "state_file": "torrent_states.json",
+    "log_file": "torrentjanitor.log",
+    "stats_file": "statistics.json"
+  }
+}
