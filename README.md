@@ -1,7 +1,7 @@
 # 🧹 TorrentJanitor
 
 <div align="center">
-  <img src="logo.png" alt="TeleDrop" width="200">
+  <img src="logo.png" alt="TorrentJanitor" width="200">
 </div>
 
 <p align="center">
