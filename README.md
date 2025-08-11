@@ -1,14 +1,21 @@
 # 🧹 TorrentJanitor
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?logo=docker&logoColor=white)](https://www.docker.com/)
-[![qBittorrent](https://img.shields.io/badge/qBittorrent-4.3%2B-brightgreen)](https://www.qbittorrent.org/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+<div align="center">
+  <img src="logo.png" alt="TeleDrop" width="200">
+</div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="MIT License">
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/qBittorrent-4.3%2B-brightgreen.svg" alt="qBittorrent 4.3+">
+  <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
+</p>
 **Your automated cleanup service for qBittorrent**
 
-TorrentJanitor is a Python application that automatically cleans up your qBittorrent downloads by removing problematic torrents based on customizable rules and thresholds. Like a diligent janitor, it keeps your torrent client clean, organized, and running smoothly by identifying and removing stalled, errored, or inactive torrents.
+<p align="center">
+  <strong>TorrentJanitor is a Python application that automatically cleans up your qBittorrent downloads by removing problematic torrents based on customizable rules and thresholds. Like a diligent janitor, it keeps your torrent client clean, organized, and running smoothly by identifying and removing stalled, errored, or inactive torrents.</strong>
+</p>
 
 ## ✨ Features
 
